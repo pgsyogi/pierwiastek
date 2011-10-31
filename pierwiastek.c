@@ -8,7 +8,7 @@ int main(){
     printf("Podaj liczbę rzeczywistą: ");
     scanf("%lf" , &x);
 
-y = x * x;
+y = sqrt(x);
 
     if (x<0) {
     printf("Podałeś liczbę ujemną...");
